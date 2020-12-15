@@ -153,3 +153,21 @@ alert("Norm");
 else {
   alert("SOSI")
 }
+
+//
+
+let age = prompt(Number);
+
+if(age < 14 || age > 90) {
+  alert("Okay")
+}
+else {
+  alert("NotOkay")
+}
+let age = prompt(Number);
+if (!(age >= 14 && age <= 90)){
+  alert(1);
+}
+else{
+  alert(0);
+}

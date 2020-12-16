@@ -9,7 +9,7 @@ return sum;
 }
     console.log(sumTo(100));
 
-//
+////////////////////////////////////////////////////////
 
 function sumTo(x){
     let sum = x;
@@ -21,7 +21,7 @@ function sumTo(x){
   }
   console.log(sumTo(4));
   
-  //
+  //////////////////////////////////////////////////////
 
   function sumTo(x){
     let sum = 0;
@@ -48,7 +48,7 @@ function sumTo(x) {
 }
 console.log(sumTo(x))
 
-//short
+//////////////////////////////////////////////////////////////short
 function sumTo(x) {
     let sum = 0;
     if (x == 1) return x;
@@ -68,7 +68,7 @@ console.log(sumTo(x))
 function countBs(string) {
     "string"[N]
 }
-//
+///////////////////////////////////////////////////////
 
 
 for( let counter = 2; counter <= 10; counter++) {
@@ -76,27 +76,27 @@ for( let counter = 2; counter <= 10; counter++) {
       console.log(counter);
     }
   }
-//
+///////////////////////////////////////////////////////////
   let i = 0;
   while(i < 3) {
       i++;
   }
   console.log(i);
-//
+/////////////////////////////////////////////////////////////
   let i = 0;
   while(i < 3) {
     console.log(i);
     ++i;
  console.log(i);
   }
-//
+/////////////////////////////////////////////////////////
 let num = Number;
   do {
     num = prompt("number bigger than 100");
   }
   while (num <= 100 && num);
   console.log(num)
-//
+//////////////////////////////////////////////////////
   let size = 10
   nextPrime:
   for ( let num = 2;  num <= size; num++){
@@ -105,14 +105,14 @@ let num = Number;
     }
     console.log(num)
   }
-//
+////////////////////////////////////////////////
 
   let num = prompt(Number);
 if(num > 0) alert(1);
 else if(num < 0) alert(-1);
 else alert(0);
 
-//
+//////////////////////////////////////////////////////////////////////////
 
 let result;
 (a + b < 4) ? result = "malo" : result = "dohuya";
@@ -120,7 +120,7 @@ let result;
 let result;
 (a + b < 4) ? "malo" : "dohuya";
 
-//
+//////////////////////////////////////////////////////////////////////////
 
 let message;
 let login = prompt("VvediLoginLoh")
@@ -140,7 +140,7 @@ let login = prompt("VvediParolDaun");
 let message = (login == "sotrudnik") ?  alert("Privet") : 
 (login == "director") ? alert("Zdravstvuite") :
 (login == "") ?  alert("netLogina") : alert("idiNahuiSTakimiFocusami");
-//
+///////////////////////////////////////////////////////////////////////////////////////
 
 let age;
 if (age >= 14 && age <= 90);
@@ -154,7 +154,7 @@ else {
   alert("SOSI")
 }
 
-//
+////////////////////////////////////////////
 
 let age = prompt(Number);
 
@@ -171,3 +171,70 @@ if (!(age >= 14 && age <= 90)){
 else{
   alert(0);
 }
+
+////////////////////////////////////////// trying to make loggin and password cheker
+
+let login = prompt("InputPassword");
+if (login == "admin"){
+  prompt("Password");
+  if (prompt("Password") == "imAdmin") {
+    alert("Welcome");
+  }
+  else if (prompt("Password") == null) {
+    alert("canceled");
+  }
+  else {
+    alert("password invalid");
+  }
+}
+else if(login == null) {
+  alert("canceled");
+}
+else {
+  alert("login invalid");
+}
+
+///////////////////////////////////////////////
+let login = prompt("inputLogin");
+if (login == "admin"){
+let password = prompt("inputPassword");
+else if (password == "imAdmin") {
+  alert("Welcome")
+}
+}
+else if(login == null) {
+  alert("canceled");
+}
+else {
+  alert("login invalid");
+}
+/////////////////////////////////////////////// working
+let login = prompt("inputLogin");
+if (login == "admin"){
+let password = prompt("inputPassword");
+  if (password == "imAdmin") {
+    alert("Welcome")
+  }
+  else if (password == null) {
+    alert("canceled");
+  }
+  else {
+alert("imvalid pasword")
+  }
+}
+else if(login == null) {
+  alert("canceled");
+}
+else {
+  alert("login invalid");
+}
+//More reddable ???
+let login = prompt("inputLogin");
+if (login == "admin"){
+let password = prompt("inputPassword");
+  if (password == "imAdmin") alert("Welcome");
+  else if (password == null) alert("canceled");
+  else alert("imvalid pasword");
+}
+else if(login == null) alert("canceled");
+else alert("login invalid");

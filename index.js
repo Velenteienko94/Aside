@@ -238,3 +238,62 @@ let password = prompt("inputPassword");
 }
 else if(login == null) alert("canceled");
 else alert("login invalid");
+
+///////////////////////////////////////////////////
+let size = 10;
+for (let x = 2; x < size; x++){
+  if(x % 2 == 1) continue;
+}
+alert(x);
+
+let size = 10;
+for(let x = 2; x <= size; x++) {
+  if(x % 2 == 0) {
+    alert(x);
+  }
+}
+
+/////////////////////////////////////////////////
+let x = 0;
+while(i < 3) {
+  alert(`number ${x}!`);
+  x++;
+}
+////////////////////////////////////////////////
+let imput;
+do {
+  imput = prompt("input number more that 100")
+}
+while (imput < 100 || imput == null);
+//////////////////////////////////////////////////dont anderstood
+let imput;
+do {
+  imput = prompt("input number more that 100");
+}
+while (imput < 100 && imput);
+
+///////////////////////////////////////////
+
+for(let x = 0; x <=3; x++){
+    for(let y = 0; y < 3; y++){
+      console.log("***")
+    }
+  console.log("_")
+}
+///////////////////////////////////
+
+for(let x = 1; x <= 3; x++){
+  console.log(x);
+  for(let y = 0; y < 1, y++){
+    console.log("*_*_*_")
+  }
+}
+
+/////////////////////////////////////////////
+
+for(let x = 0; x <= 4; x++) {
+  for(let y = 0; y < 1; y++){
+    console.log("*_*_*_")
+  }
+  console.log("\n")
+}

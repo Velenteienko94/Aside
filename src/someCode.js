@@ -230,3 +230,113 @@
 //     return quantitysOfSymbols;
 // }
 // console.log(countBs("BsssBBsssoiklmfamBbbb", "b"))
+/////////////////////////////////////////////////////////
+
+// function sumNums(arrayOfNums){
+//     let sum = 0;
+//     for(let nums of arrayOfNums){
+//         sum+=nums;
+//     }
+//     return sum;
+// }
+
+// function sumNums(arrayOfNums){
+//     let sum = 0;
+//     arrayOfNums.map(function(num){
+//         sum +=num;
+//     })
+//     return sum
+// }
+/////////////////////////////////////////////////////////////////////////////////
+// function range(start, end) {
+    //     for(let i = start; i<=end; i++){
+        //         array.push(i);
+        //     }
+        //     return array;
+        // }
+////////////////////////////////////////////////////////////       
+// i will be back
+// const array = [];
+// const range = (start, end, updator=1) =>{
+//     for (i = start; i <= end; i+=updator) array.push(i);
+//     return array;
+// }
+// const sum = arrOfRange => {
+//     let sum = 0;
+//     for(number of arrOfRange){
+//         sum+= number;
+//     }
+//     return sum;
+// }
+
+
+///////////////////////////////////////////////////////////////////////////
+
+// const reverseArray = array => {
+//     return array.reverse()
+// }
+// [1,4,6,8,9]
+// //////////////////////////////////////////////////////////////////////////
+// const reverseArray = array => newArr = array.reverse();
+// console.log(reverseArray([1,4,6,8,9]));
+// //////////////////////////////////////////////////////////////////////////
+
+// const reverseArrayINPlace = array =>{
+//     let newArr = [];
+//     for(let i = array.length-1; i>=0; i--){
+//         newArr.push(array[i]); 
+//     }
+//     return newArr;
+// }
+
+// console.log(reverseArrayINPlace([1,2,3,4,5]));
+
+
+// let list = {};
+// function arrayToList(array){
+// let reverseArray = array.reverse();
+// for(let number of reverseArray){
+//     list = {value: number, rest:list};
+//     if(number === array.length){
+//         list.rest = null;
+//     }
+// }
+//     return list;
+// }
+// const div = document.getElementById('container');
+// const img = document.querySelector('img');
+// div.style.textAlign = 'center';
+// img.style.width = '150px';
+// img.style.borderRadius = '50%';
+
+
+// const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']; 
+
+// const spans = document.querySelectorAll('span');
+// let i = 0;
+// for(let span of spans){
+//     span.style.color = colors[i];
+//     i++;
+//     if(i > colors.length-1) {i = 0};
+// }
+
+
+// let allLis = document.querySelectorAll('li');
+// for(let li of allLis){
+//     li.classList.toggle('highlight');
+// }
+
+// let button = document.createElement('bnt').innerText = "amIRight?";
+// // button.innerText = "amIRight?";
+// let container = document.selectElementById('#container')
+// let i = 0;
+// while(i<100){
+// container.appendChild(button);
+// }
+
+
+// let button = document.createElement('button');
+// for(let i=0; i<100; i++){
+//     let container = document.getElementById('#container');
+// }
+// button.innerText('wtw')

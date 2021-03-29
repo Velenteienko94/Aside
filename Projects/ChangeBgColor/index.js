@@ -1,13 +1,17 @@
-let colorBtn = document.querySelector('.colorBtn');
-let bodyBcg = document.querySelector('body');
+let colorBtn = document.querySelector(".colorBtn");
+let body = document.querySelector("body");
+let colors = ["yellow", "red", "green", "pink"];
 
-let colors = ['yellow','red','green','pink']; 
+colorBtn.addEventListener("click", changeColor);
 
-colorBtn.addEventListener('click',changeColor);
+function changeColor() {
+  let random = Math.floor(Math.random() * colors.length);
+  let newRandom = Math.floor(Math.random() * colors.length);
 
-function changeColor (){
-    // bodyBcg.style.backgroundColor = colors[3];
-    let random = Math.floor(Math.random()*colors.length)
-    bodyBcg.style.backgroundColor = colors[random];
-    console.log(random);
-};
+  if (body.style.backgroundColor === colors[random]) {
+    body.style.backgroundColor = colors[newRandom];
+    return;
+  }
+
+  body.style.backgroundColor = colors[random];
+}
